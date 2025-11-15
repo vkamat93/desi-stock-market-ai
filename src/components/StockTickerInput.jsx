@@ -24,7 +24,7 @@ const StockTickerInput = ({onGenerate}) => {
           type="text"
           value={tickerInput}
           onChange={(e) => setTickerInput(e.target.value)}
-          placeholder="Enter stock ticker (e.g., RELIANCE)"
+          placeholder="stock ticker (e.g: TCS)"
           className="flex-1 px-4 py-3 bg-slate-700 text-white placeholder-gray-400 rounded-lg border border-slate-600 focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 focus:outline-none transition-all"
         />
         <button

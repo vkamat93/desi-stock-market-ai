@@ -99,23 +99,16 @@ const renderReport = (aiGeneratedContent) => {
 }
 
   const popularStocks = [
-    { symbol: 'RELIANCE', name: 'Reliance Industries Ltd' },
-    { symbol: 'TCS', name: 'Tata Consultancy Services' },
-    { symbol: 'INFY', name: 'Infosys Limited' },
-    { symbol: 'HDFCBANK', name: 'HDFC Bank' },
+    { symbol: 'ASIANPAINT', name: 'Asian Paints Ltd.' },
+    { symbol: 'BHARATFORG', name: 'Bharat Forge Ltd.' },
+    { symbol: 'TATATECH', name: 'Tata Technologies Ltd.' },
     { symbol: 'ICICIBANK', name: 'ICICI Bank' },
+    { symbol: 'ITC', name: 'ITC' },
+    { symbol: 'LT', name: 'Larsen & Toubro Ltd.' },
+    { symbol: 'CUMMINSIND', name: 'Cummins India Ltd.' },
+    { symbol: 'TATASTEEL', name: 'Tata Steel Ltd.' },
     { symbol: 'BHARTIARTL', name: 'Bharti Airtel' },
-    { symbol: 'ASIANPAINT', name: 'Asian Paints Ltd' },
-    { symbol: 'AXISBANK', name: 'Axis Bank Ltd' },
-    { symbol: 'BAJAJFINSV', name: 'Bajaj Finserv Ltd' },
-    { symbol: 'BAJFINANCE', name: 'Bajaj Finance Ltd' },
-    { symbol: 'HINDUNILVR', name: 'Hindustan Unilever Ltd' },
-    { symbol: 'ITC', name: 'ITC Ltd' },
-    { symbol: 'KOTAKBANK', name: 'Kotak Mahindra Bank Ltd' },
-    { symbol: 'LT', name: 'Larsen & Toubro Ltd' },
-    { symbol: 'MARUTI', name: 'Maruti Suzuki India Ltd' },
-    { symbol: 'SUNPHARMA', name: 'Sun Pharmaceutical Industries Ltd' },
-    { symbol: 'TITAN', name: 'Titan Company Ltd' }
+    { symbol: 'VBL', name: 'Varun Beverages Ltd.' }
   ]
 
   return (
